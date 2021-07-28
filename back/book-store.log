@@ -1,0 +1,444 @@
+{
+  error: Error: listen EADDRINUSE: address already in use :::3000
+      at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+      at listenInCluster (net.js:1361:12)
+      at Server.listen (net.js:1447:7)
+      at Function.listen (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/app.ts:30:15)
+      at Module._compile (internal/modules/cjs/loader.js:1138:30)
+      at Module._compile (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+      at Object.newLoader [as .ts] (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:104:7)
+      at Module.load (internal/modules/cjs/loader.js:986:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+      at Module.require (internal/modules/cjs/loader.js:1026:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/index.ts:7:1)
+      at Module._compile (internal/modules/cjs/loader.js:1138:30)
+      at Module._compile (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:99:24) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 3000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::3000\n' +
+    'Error: listen EADDRINUSE: address already in use :::3000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1313:16)\n' +
+    '    at listenInCluster (net.js:1361:12)\n' +
+    '    at Server.listen (net.js:1447:7)\n' +
+    '    at Function.listen (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/app.ts:30:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n' +
+    '    at Module._compile (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n' +
+    '    at Object.newLoader [as .ts] (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:986:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1026:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/index.ts:7:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n' +
+    '    at Module._compile (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:99:24)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::3000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1313:16)\n' +
+    '    at listenInCluster (net.js:1361:12)\n' +
+    '    at Server.listen (net.js:1447:7)\n' +
+    '    at Function.listen (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/app.ts:30:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n' +
+    '    at Module._compile (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n' +
+    '    at Object.newLoader [as .ts] (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:986:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1026:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/index.ts:7:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n' +
+    '    at Module._compile (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:99:24)',
+  exception: true,
+  date: 'Wed Jul 28 2021 11:16:06 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 6340,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back',
+    execPath: '/Users/jaimesalaszancada/.nvm/versions/node/v12.18.1/bin/node',
+    version: 'v12.18.1',
+    argv: [
+      'node',
+      '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/index.ts'
+    ],
+    memoryUsage: {
+      rss: 104730624,
+      heapTotal: 71749632,
+      heapUsed: 41939232,
+      external: 21818855,
+      arrayBuffers: 19824875
+    }
+  },
+  os: {
+    loadavg: [ 4.736328125, 4.44775390625, 5.65283203125 ],
+    uptime: 7291
+  },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1313,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1361,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1447,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/app.ts',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1138,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1158,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js',
+      function: 'Object.newLoader [as .ts]',
+      line: 104,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 986,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 879,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1026,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/index.ts',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1138,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-28T09:16:06.951Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::3000
+      at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+      at listenInCluster (net.js:1361:12)
+      at Server.listen (net.js:1447:7)
+      at Function.listen (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/app.ts:30:15)
+      at Module._compile (internal/modules/cjs/loader.js:1138:30)
+      at Module._compile (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+      at Object.newLoader [as .ts] (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:104:7)
+      at Module.load (internal/modules/cjs/loader.js:986:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+      at Module.require (internal/modules/cjs/loader.js:1026:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/index.ts:7:1)
+      at Module._compile (internal/modules/cjs/loader.js:1138:30)
+      at Module._compile (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:99:24) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 3000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::3000\n' +
+    'Error: listen EADDRINUSE: address already in use :::3000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1313:16)\n' +
+    '    at listenInCluster (net.js:1361:12)\n' +
+    '    at Server.listen (net.js:1447:7)\n' +
+    '    at Function.listen (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/app.ts:30:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n' +
+    '    at Module._compile (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n' +
+    '    at Object.newLoader [as .ts] (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:986:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1026:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/index.ts:7:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n' +
+    '    at Module._compile (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:99:24)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::3000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1313:16)\n' +
+    '    at listenInCluster (net.js:1361:12)\n' +
+    '    at Server.listen (net.js:1447:7)\n' +
+    '    at Function.listen (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/app.ts:30:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n' +
+    '    at Module._compile (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n' +
+    '    at Object.newLoader [as .ts] (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:986:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1026:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/index.ts:7:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n' +
+    '    at Module._compile (/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js:99:24)',
+  exception: true,
+  date: 'Wed Jul 28 2021 11:16:12 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 6343,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back',
+    execPath: '/Users/jaimesalaszancada/.nvm/versions/node/v12.18.1/bin/node',
+    version: 'v12.18.1',
+    argv: [
+      'node',
+      '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/index.ts'
+    ],
+    memoryUsage: {
+      rss: 104693760,
+      heapTotal: 72798208,
+      heapUsed: 40182216,
+      external: 21818966,
+      arrayBuffers: 19824986
+    }
+  },
+  os: {
+    loadavg: [ 4.75732421875, 4.45654296875, 5.64892578125 ],
+    uptime: 7297
+  },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1313,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1361,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1447,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/app.ts',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1138,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1158,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js',
+      function: 'Object.newLoader [as .ts]',
+      line: 104,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 986,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 879,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1026,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/src/index.ts',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1138,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/jaimesalaszancada/Documents/tmp/bootcamp-backend-review/logging-monitoring-review/solution/back/node_modules/pirates/lib/index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-28T09:16:12.081Z'
+}
+{
+  message: 'Invalid credentials fro admin@email.com',
+  level: 'warn',
+  timestamp: '2021-07-28T09:18:11.986Z'
+}
+{
+  message: 'Invalid credentials fro admin@email.com',
+  level: 'warn',
+  timestamp: '2021-07-28T14:41:07.264Z'
+}
